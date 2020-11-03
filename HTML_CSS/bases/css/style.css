@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* polices classiques supportée par la plupart des systeme d'exploitation*/
+    background-color: #e3f1ef; /* couleur de fond et non de texte*/
+}
+
+header,footer{
+    background-color: rgb(13,187,157);
+    color: white;
+}
+
+section {
+    background-color: #FFF;
+    text-align: center;
+}
+
+section p {
+	text-align: left;
+	line-height: 1.8;
+}
+
+/* je peux factoriser plusieurs mise en forme*/
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+/* et completer avec ce que je pourrai avoir besoin sur une balise ou une classe particuliere*/
+h2{
+    color :  rgb(13,187,157);
+}
+
+h3 {
+	font-style: italic;
+}
+
+strong{
+    background-color:yellow;
+}
+
+
+h1 span{
+    font-size: 2.5em;
+}
+
+.definition{
+    background-color: lightyellow;
+    text-align: center;
+}
+
+/*
+ lorsque je souhaite cibler un element particulier et lui seul j'utilise son identifiant à définit dans la balise par id
+
+ un id ce cible avec #
+*/
+#ressources{
+    color:black;
+}
+
+img {
+    border: black solid 1px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+em {
+	text-decoration: overline;
+}
+
+footer {
+	color: white;
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: black;
+}
+#ressources {
+	color: black;
+	font-weight: 700;
+	font-size: 0.8em;
+}
+

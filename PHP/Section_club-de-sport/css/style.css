@@ -1,0 +1,27 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+    
+  h1,
+  h2 {
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .input {
+    width: 4rem;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .container__form {
+    margin-right: 1rem;
+    width: 70%;
+  }
+  
+  .container__image {
+    display: block;
+  }
+  
